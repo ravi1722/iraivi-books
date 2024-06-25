@@ -1,0 +1,169 @@
+$color1 : #173742;
+$color2 : #FBD982;
+$color3 : #B78F5E;
+
+a {
+    text-decoration: none;
+    color: $color1;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.bg-1{
+    background-color: #B78F5E;
+}
+
+.fs-8 {
+    font-size: 15px !important;
+}
+
+.fs-9 {
+    font-size: 10px !important;
+}
+
+a:hover {
+    color: $color3;
+}
+
+.btn1 {
+    background-color: $color1;
+    font-size: 13px;
+    width: 5vw;
+    padding-left: 3%;
+    color: #fff;
+    font-weight: 800;
+}
+
+.btn1:hover {
+    border: 1px solid $color1;
+    color: $color1 !important;
+}
+
+.btn2 {
+    border: 1px solid $color1;
+    color: $color1;
+}
+
+.btn2:hover {
+    background-color: $color1;
+    color: #fff;
+}
+
+.btn3 {
+    color: #fff;
+    background-color: $color1;
+    border: 1px solid $color1;
+}
+
+.btn3:hover {
+    border: 1px solid $color1;
+}
+
+.btn4 {
+    color: #fff;
+    background-color: $color3;
+}
+
+.btn4:hover {
+    color: $color3;
+    border: 1px solid $color3;
+}
+
+.txt1 {
+    color: $color3 !important;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.wish-position {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.categorylist {
+    position: absolute;
+    z-index: 99;
+}
+
+.allbook-title {
+    background-color: $color1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.card-main {
+    transition: 0.5s;
+    animation: ease-in-out;
+    cursor: pointer;
+}
+
+.card-main:hover {
+    transform: scale(1.07);
+}
+
+div.input-group.text-center input {
+    border: 1px solid rgb(193 197 200) !important;
+}
+
+div.input-group.text-center input:focus {
+    box-shadow: none;
+}
+
+.cart-count {
+    background-color: $color1;
+    color: #fff;
+    width: 22px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    left: 22px;
+    top: 5px;
+    padding: 0px 5px;
+    border: none;
+    border-radius: 18px;
+}
+
+.small-img-border {
+    border: 2px solid $color1;
+}
+
+// Admin
+.navclr {
+    background-color: $color1;
+}
+
+.form-control {
+    border: 1px solid $color1;
+}
+.dateftm {
+    margin-top: -8px;
+}
+.subscribe-input .form-control{
+    background-color: #fff;
+    border: 1px solid #fff !important;
+}
+.subscribe-input button{
+    border: 1px solid #173742;
+    color: #173742;
+}
+.subscribe-input button:hover{
+    background-color: #173742;
+    border: 1px solid #173742;
+}
